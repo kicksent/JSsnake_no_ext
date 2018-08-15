@@ -1,0 +1,41 @@
+{
+  "name": "vectorious",
+  "version": "4.8.1",
+  "description": "A high performance linear algebra library.",
+  "main": "vectorious.js",
+  "scripts": {
+    "test": "mocha",
+    "benchmark": "node ./benchmarks/vector.js && node ./benchmarks/matrix.js",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateogianolio/vectorious.git"
+  },
+  "keywords": [
+    "matrix",
+    "vector",
+    "linear",
+    "algebra"
+  ],
+  "author": "Mateo Gianolio",
+  "contributors": [
+    "Bart van Andel <bavanandel@gmail.com>",
+    "James Vickers",
+    "Phillip Wang",
+    "Waylon Flinn",
+    "Xuefeng Zhu"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateogianolio/vectorious/issues"
+  },
+  "homepage": "https://github.com/mateogianolio/vectorious",
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "mocha": "^2.4.5"
+  },
+  "optionalDependencies": {
+    "nblas": "^1.2.0"
+  }
+}
